@@ -3,15 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo App</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>Todo App</h1>
-    <input type="text" id="todoInput" placeholder="Yangi tudu qoshish">
-    <button onclick="addTodo()">Qo'shish</button>
+    <!-- 1-mashq -->
+    <button id="adviceBtn">Maslahat olish</button>
+    <p id="adviceText"></p>
+ 
 
-    <ul id="todoList"></ul>
+    <!-- 2-mashq -->
+    <button id="factBtn">Fakt olish</button>
+    <p id="factText"></p>
 
-    <script src="./app/app.js"></script>
-  </body>
+    <!-- 3-mashq -->
+    <button id="colorBtn">Rangni yangilash</button>
+    <div id="colorBox" style="width: 100%; height: 200px;"></div>
+    <p id="colorCode"></p>
+
+    <!-- 4-mashq -->
+    <button id="jokeBtn">Hazil olish</button>
+    <p id="jokeText"></p>
+
+
+    <!-- 5-mashq -->
+    <input id="personName" placeholder="Shaxs nomini kiriting">
+    <button id="getInfoBtn">Ma'lumot olish</button>
+    <div id="personInfo"></div>
+
+    <!-- 6-mashq -->
+    <input id="userName" placeholder="Foydalanuvchi ismini kiriting">
+    <button id="createUserBtn">Ro'yxatga olish</button>
+    <p id="confirmationMessage"></p>
+    <script src="./main.js"></script>
+</body>
 </html>
